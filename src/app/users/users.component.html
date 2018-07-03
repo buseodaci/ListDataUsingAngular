@@ -1,6 +1,7 @@
 <h1>Users</h1>
 
 <ul [@listStagger]="users$">
+<img src="assets/at.jpg"/>
   <li *ngFor="let user of users$">
     <a routerLink="/details/{{user.id}}">{{ user.name }}</a>
 
